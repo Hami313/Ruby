@@ -26,6 +26,12 @@ def greet
     elsif gender == "male" && age > 40 
        puts " woOow.i admire your experience sir"
     end
+if age.even?
+    puts "your age is even "
+elsif age.odd?
+    puts " your age is odd"
+end
+puts "your birth year is #{2019-age}"
 end
 greet()
 
